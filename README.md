@@ -5,7 +5,7 @@
 # Usage
 To use the TaskTimer class, you need to initialize an instance of the class with an action and the amount of seconds until the action will be executed.
 
-    from task_timer import TaskTimer
+    from task_timer_birdhouses import TaskTimer
 
 # Initialize a new TaskTimer
     task_timer = TaskTimer('send_email', 3600)
@@ -27,4 +27,4 @@ In the example above, 'send_email' is the action we're scheduling, and 3600 is t
 This package can be installed using pip:
 
 ```bash
-pip install task-timer
+pip install task-timer-birdhouses

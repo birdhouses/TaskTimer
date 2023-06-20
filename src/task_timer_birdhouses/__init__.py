@@ -1,1 +1,1 @@
-from . import task_timer
+from .task_timer import TaskTimer
