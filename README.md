@@ -7,7 +7,7 @@ To use the TaskTimer class, you need to initialize an instance of the class with
 
     from task_timer import TaskTimer
 
-# Initialize a new ActionScheduler
+# Initialize a new TaskTimer
     task_timer = TaskTimer('send_email', 3600)
 
 # Print the next action time in a human-friendly format
