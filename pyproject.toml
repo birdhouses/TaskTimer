@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "task_timer_birdhouses"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="birdhouses", email="peerdenhoed@hotmail.nl" },
 ]
