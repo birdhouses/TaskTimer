@@ -27,4 +27,4 @@ In the example above, 'send_email' is the action we're scheduling, and 3600 is t
 This package can be installed using pip:
 
 ```bash
-pip install task-timer
+pip install task-timer-birdhouses
