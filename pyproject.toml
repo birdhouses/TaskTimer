@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "task_timer_birdhouses"
+version = "0.0.1"
+authors = [
+  { name="birdhouses", email="peerdenhoed@hotmail.nl" },
+]
+description = "You can use `TaskTimer` to automatically calculate when a given task will be executed based on a specified duration in seconds."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
