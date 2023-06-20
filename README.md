@@ -7,22 +7,22 @@ To use the TaskTimer class, you need to initialize an instance of the class with
 
     from task_timer_birdhouses import TaskTimer
 
-# Initialize a new TaskTimer
+#### Initialize a new TaskTimer
     task_timer = TaskTimer('send_email', 3600)
 
-# Print the next action time in a human-friendly format
+#### Print the next action time in a human-friendly format
     print(task_timer.human_friendly())
 
     # Output
     June 21, 2023, 02:11 AM
 
-# Print the next action time as a datetime object
+#### Print the next action time as a datetime object
     print(str(task_timer))
 
     # Output
     2023-06-21 02:11:05.046499
 
-# Print all upcoming actions
+#### Print all upcoming actions
     print(TaskTimer.get_upcoming_actions())
 
     # Output
