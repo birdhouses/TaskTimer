@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "task_timer_birdhouses"
-version = "0.0.5"
+version = "1.0.1"
 authors = [
   { name="birdhouses", email="peerdenhoed@hotmail.nl" },
 ]
-description = "You can use `TaskTimer` to automatically calculate when a given task will be executed based on a specified duration in seconds."
+description = "You can use `TaskTimer` to automatically calculate and execute when a given function will be executed based on a specified duration in seconds."
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
